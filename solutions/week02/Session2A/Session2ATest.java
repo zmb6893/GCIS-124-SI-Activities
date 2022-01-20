@@ -1,7 +1,6 @@
 package solutions.week02.Session2A;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.Test;
 import org.junit.platform.commons.annotation.Testable;
