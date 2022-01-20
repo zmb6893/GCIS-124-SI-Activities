@@ -1,0 +1,11 @@
+Do a noun-verb analysis on the following information.
+
+A person has a name, an age, and a list of hobbies. A person should be able to age. 
+If a person becomes interested in a new activity, they should be able to obtain a 
+new hobby. Hobbies have a name and a description. A hobby can be acted out by a 
+Person. You should be able to keep track of the number of people who have been 
+concurrently created.
+
+.--------------------.
+| NOUN-VERB Analysis:|
+.--------------------.
