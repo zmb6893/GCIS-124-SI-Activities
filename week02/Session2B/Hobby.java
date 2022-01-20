@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class Hobby {
     // CONSTANTS
-    private String FORMAT =  "%s:\t %s";
+    private String FORMAT =  "%s:\t %s"; // Can use String.format(FORMAT, arg1, arg2) EXAMPLE: String.format(FORMAT, "sleeping", "the best hobby") -> "sleeping:    the best hobby"
 
     // Add the attributes for a hobby name and a hobby description
 
