@@ -1,6 +1,0 @@
-{
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        "/Users/zoebingham/junit-platform-console-standalone-1.7.0-all.jar"
-    ]
-}
