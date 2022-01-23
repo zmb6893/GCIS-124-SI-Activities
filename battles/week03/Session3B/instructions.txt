@@ -1,0 +1,28 @@
+First to complete all the activities correctly can claim your prize at an in-person SI Session (THURSDAY OR SUNDAY)
+
+Description:
+An animal has a name and a classification (ie Mouse is a mammal).
+Classifications of animals fall into the following categories:
+mammal, amphibian, fish, bird, reptile, invertabrae. Classifications each have their own descriptions as follows:
+    mammals: kind of gross
+    amphibian: Adorable <3 <3
+    birds: don't exist
+    reptile: the overlords of our world
+    invertabrae: grow a back bone man
+
+Points  :Task
+5       :Make a class called Animal
+5       :Make an enumeration called Classification
+5       :Make a constructor for Classification that takes
+         in an argument for name and possibly description.
+5       :Add the following classifications to your enumeration:
+         mammal, amphibian, fish, bird, reptile, invertabrae
+5       :Add a contructor to your Animal class that takes a name
+         and a classification.
+5       :Create a toString to your Animal class with sample output:
+            A(n) frog is a(n) amphibian.
+                amphibian description: Adorable <3 <3
+5       :Add an equals special method to your animal class.
+5       :Make an instance of the Animal class for a frog.
+15      :Call all your special methods on your animal and print out
+         the results.
