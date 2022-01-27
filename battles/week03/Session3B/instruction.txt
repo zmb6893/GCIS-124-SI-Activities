@@ -1,0 +1,12 @@
+Winner gets to choose a prize.
+
+A fruit should have a name, color, and price. Every fruit can be
+eaten, but the process may vary (Example: peel a banana vs bite 
+into an apple). The eat function should print the steps to eat the 
+fruit.
+
+Make a class for fruits.
+
+Extend that class to make a banana and a pineapple.
+
+Make a toString for your fruits. (Example: "yellow banana ($0.25)")
