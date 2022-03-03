@@ -1,5 +1,9 @@
 package Practicum_Review.Review02.DeckOfCards.Model;
 
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+
 public class Card implements Comparable<Card> {
     private final Rank rank;
     private final Suit suit;
@@ -11,6 +15,10 @@ public class Card implements Comparable<Card> {
 
     public Rank getRank() {
         return rank;
+    }
+
+    public Suit getSuit(){
+        return suit;
     }
 
     @Override
