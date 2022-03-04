@@ -19,7 +19,7 @@ public class SortHandler implements EventHandler<ActionEvent> {
     private LinkedList<Card> deck;
     private GridPane pane;
 
-    public SortHandler(){
+    public SortHandler(String sortType, LinkedList<Card> deck, GridPane pane){
         // What will you need in your constructor???
     }
 
