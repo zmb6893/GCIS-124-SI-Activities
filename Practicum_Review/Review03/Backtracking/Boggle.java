@@ -5,6 +5,7 @@ import java.util.LinkedList;
 
 import Practicum_Review.Review03.Backtracking.backtracker.Backtracker;
 import Practicum_Review.Review03.Backtracking.backtracker.Configuration;
+import Practicum_Review.Review03.Backtracking.graphs.AdjacencyGraph;
 
 /**
  * Backtracker for solving a game of boggle. Check out the instructions here:
@@ -35,7 +36,7 @@ public class Boggle {
 
     private String[] dictionary;
     private char[][] board;
-    private String word;
+    private AdjacencyGraph word;
 
     public Boggle(String[] dictionary, char[][] board){
         this.dictionary = dictionary;
