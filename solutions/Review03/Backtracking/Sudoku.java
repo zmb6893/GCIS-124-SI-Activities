@@ -67,7 +67,7 @@ public class Sudoku implements Configuration {
         // Make a successor for every possible move at this position
         for (int num = 1; num <= 9; num++){ 
             int[][] newBoard = deepCopy(board);
-            newBoard[nextEmpty[0]][nextEmpty[1]] = num;
+            newBoard[nextEmpty[0]][nextEmpty[1]] = num;  
             Sudoku successor = new Sudoku(newBoard);
             successors.add(successor); 
         }        
@@ -195,6 +195,7 @@ public class Sudoku implements Configuration {
         Sudoku sudoku = new Sudoku(board);
         Backtracker bt = new Backtracker(true);
         Configuration solution = bt.solve(sudoku);
+
         if(solution == null){
             System.out.println("no solution");
         } else {
