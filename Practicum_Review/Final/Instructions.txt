@@ -1,0 +1,25 @@
+Final Review Practical Portion:
+
+These are review questions based on the past three units we went over in class, 
+including threading, concurrent programming, and networking.
+
+We will be working through the following problems:
+    1.  A traffic circle can have multiple cars driving on it at once. One car can  
+        leave the traffic circle at a time. Keep track of the cars that are in the 
+        traffic circle at a given time. Cars can enter and exit the traffic circle at 
+        the same time. Come up with a solution using threads to demonstrate this 
+        problem.
+            Hints:
+                - What will the shared resource(s) be?
+                - How will you keep track of who is in the circle?
+    2.  Hangman. Create a game of hangman that allows multiple users to play at once.
+        You will be using networking concepts for this problem.
+        +---+
+        |   o
+        |  /|\
+        |  / \
+        |
+        +--
+        _ _ _ _ _
+
+        
