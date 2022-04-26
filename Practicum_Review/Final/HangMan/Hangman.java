@@ -2,6 +2,7 @@ package Practicum_Review.Final.HangMan;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -15,6 +16,8 @@ public class Hangman implements HangmanInterface {
     private char[] currentGuess;
     private HashSet<Character> incorrectGuess;
     private int guesses;
+    private String[] words;
+    private Random random = new Random();
 
     /**
      * Specify a word to use in the hangman.
@@ -22,6 +25,20 @@ public class Hangman implements HangmanInterface {
      */
     public Hangman(String word){
         this.word = word.toUpperCase();
+        this.incorrectGuess = new HashSet<Character>();
+        this.currentGuess = new char[word.length()];
+        Arrays.fill(this.currentGuess, '_');
+        this.guesses = 0;
+    }
+
+    /**
+     * Use a random phrase for a game of hangman
+     * @param word
+     */
+    public Hangman(){
+        this.words = new String[]{"OSI-is-a-seven-layer-protocol","DOD-is-a-four-layer-protocol","Proxy-is-kinda-sus","TCP-stands-for-transport-control-protocol","UDP-stands-for-User-Datagram-Packet","Full-Duplex-goes-both-ways-at-the-same-time","Simplex-goes-one-way-at-a-time","Half-duplex-goes-both-ways-one-at-a-time"};
+        String str = words[random.nextInt(words.length)];
+        this.word = str.toUpperCase();
         this.incorrectGuess = new HashSet<Character>();
         this.currentGuess = new char[word.length()];
         Arrays.fill(this.currentGuess, '_');
@@ -197,7 +214,7 @@ public class Hangman implements HangmanInterface {
     }
 
     public static void main(String[] args) {
-        Hangman hangman = new Hangman("OSI-is-a-seven-layer-protocol");
+        Hangman hangman = new Hangman();
         hangman.play();
     }
 
